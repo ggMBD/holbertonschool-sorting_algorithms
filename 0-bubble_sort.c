@@ -17,10 +17,11 @@ void swap(int *a, int *b)
 */
 void bubble_sort(int *array, size_t size)
 {
-	if (!array || size == 0)
-		return;
 	size_t i, j;
 	int swaped;
+
+	if (!array || size == 0)
+		return;
 
 	for (i = 0; i < size - 1; i++)
 	{
